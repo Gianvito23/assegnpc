@@ -1,0 +1,94 @@
+classe {
+    display: block;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+classe::before {
+    content: "Gestione Computer Alunni - Classe 5AIA";
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+alunno {
+    display: block;
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+nome, cognome, data_nascita, classe > alunno > classe {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+nome::before {
+    content: "Nome: ";
+    font-weight: bold;
+}
+
+cognome::before {
+    content: "Cognome: ";
+    font-weight: bold;
+}
+
+data_nascita::before {
+    content: "Data di nascita: ";
+    font-weight: bold;
+}
+
+classe > alunno > classe::before {
+    content: "Classe: ";
+    font-weight: bold;
+}
+
+computer {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+}
+
+computer::before {
+    content: "--- Dati Computer ---";
+    display: block;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+codice_pc, data_associazione, data_ultimoutilizzo {
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 4px;
+    color: #333;
+    font-size: 14px;
+}
+
+codice_pc::before {
+    content: "Codice PC: ";
+    font-weight: bold;
+}
+
+data_associazione::before {
+    content: "Data Associazione: ";
+    font-weight: bold;
+}
+
+data_ultimoutilizzo::before {
+    content: "Data Ultimo Utilizzo: ";
+    font-weight: bold;
+}

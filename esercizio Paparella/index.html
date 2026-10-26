@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione Computer Alunni - Classe 5AIA</title>
+    <!-- Collegamento al file CSS personalizzato -->
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+    <!-- Contenitore dinamico per i dati XML -->
+    <div id="xml-container"></div>
+
+    <script>
+        // Funzione per caricare e mostrare il file XML
+        async function caricaDatiXML() {
+            try {
+                // Fetch del file XML (assicurati che PCData.xml sia nella stessa cartella)
+                const response = await fetch('PCData.xml');
+                const textData = await response.text();
+
+                // Parsing della stringa XML in un documento DOM XML
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(textData, "text/xml");
+
+                // Inserimento del contenuto dell'elemento radice <classe> nel contenitore HTML
+                const classeElement = xmlDoc.getElementsByTagName("classe")[0];
+                if (classeElement) {
+                    document.getElementById("xml-container").appendChild(classeElement);
+                }
+            } catch (error) {
+                console.error("Errore durante il caricamento del file XML:", error);
+            }
+        }
+
+        // Avvia il caricamento dei dati al caricamento della pagina
+        window.addEventListener('DOMContentLoaded', caricaDatiXML);
+    </script>
+</body>
+</html>

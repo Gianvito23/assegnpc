@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="stile.css"?>
+<classe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="schema.xsd">
+
+    <alunno>
+        <nome>Gianvito</nome>
+        <cognome>Paparella</cognome>
+        <data_nascita>23/06/2008</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>08/10/2026</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>6104</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Claudio</nome>
+        <cognome>Dechiara</cognome>
+        <data_nascita>19/01/2009</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>08/10/2026</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>6091</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Gaetano</nome>
+        <cognome>Napoli</cognome>
+        <data_nascita>03/10/2008</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>08/10/2026</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>6103</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Emanuele</nome>
+        <cognome>Lovascio</cognome>
+        <data_nascita>01/07/2008</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>08/10/2026</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>6102</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Francesco</nome>
+        <cognome>Savino</cognome>
+        <data_nascita>31/07/2008</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>15/03/2025</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>ind</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Giuseppe</nome>
+        <cognome>Caldarola</cognome>
+        <data_nascita>22/04/2008</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>08/10/2026</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>6087</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Lorenzo</nome>
+        <cognome>Lavacca</cognome>
+        <data_nascita>12/01/2008</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>15/04/2025</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>ind</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Nicholas</nome>
+        <cognome>Rizzi</cognome>
+        <data_nascita>04/01/2009</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>15/02/2026</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>ind</codice_pc>
+        </computer>
+    </alunno>
+
+    <alunno>
+        <nome>Luca</nome>
+        <cognome>Caldarola</cognome>
+        <data_nascita>21/11/2008</data_nascita>
+        <classe>5AIA</classe>
+        <computer>
+            <data_associazione>08/10/2026</data_associazione>
+            <data_ultimoutilizzo>08/10/2026</data_ultimoutilizzo>
+            <codice_pc>6074</codice_pc>
+        </computer>
+    </alunno>
+</classe>
